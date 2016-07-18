@@ -119,9 +119,36 @@ a:-webkit-any-link {
 
   }
 
-/*********************
-  FOOTER
-*********************/
+  /* CARD STYLING */
+
+  div.img {
+    display: flex;
+  }
+
+  article {
+    display: inline-block;
+    max-width: 350px;
+    border: 1px solid black;
+  }
+
+  article img {
+    max-width: 320px;
+    max-height: 320px;
+    margin: 0 auto;
+  }
+
+  p.description {
+    margin: 0 0 0 10px;
+    height: 160px;
+    overflow-y: scroll;
+  }
+
+  p.price {
+    font-weight: bold;
+  }
+
+/*FOOTER*/
+
 footer {
 font-size: 1em;
   text-align:center;
