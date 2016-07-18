@@ -24,14 +24,3 @@ nav ul li:last-of-type {
 }
 
 
-.pretty {
-  background-color: silver;
-  color: black;
-  text-align: left;
-  border: 1px solid lavender;
-}
-
-.case {
-  font-family: Lucida, serif;
-  color: Grey;
-}
