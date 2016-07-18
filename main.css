@@ -101,15 +101,21 @@ a:-webkit-any-link {
   background-image: url('../img/mail.png')
 }
 
-#contact {
-  width: 40%;
-  float: left;
-}
+  /*********************
+  TWO COLUMN LAYOUT
+  *********************/
+  #primary {
+    width: 30%;
+    float: right;
+    padding-right: 5%;
+  }
 
-#map {
-  width: 60%;
-  float: right;
-}
+  #secondary {
+    width: 60%;
+    float: left;
+    padding-left: 5%;
+
+  }
 
 /*FOOTER*/
 footer {
