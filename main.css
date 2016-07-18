@@ -2,7 +2,9 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/*Header & Links in it*/
+/*********************
+HEADER
+*********************/
 
 header {
   float: left;
@@ -78,7 +80,10 @@ a:-webkit-any-link {
   text-decoration: none;
 }
 
-/*Contact Page*/
+
+/*********************
+  CONTACT PAGE
+*********************/
 .contact-info {
   list-style: none;
   padding: 0;
@@ -100,26 +105,25 @@ a:-webkit-any-link {
 .contact-info li.mail a {
   background-image: url('../img/mail.png')
 }
+/*Two Column Layout*/
+#primary {
+  width: 30%;
+  float: right;
+  padding-right: 5%;
+}
 
-  /*********************
-  TWO COLUMN LAYOUT
-  *********************/
-  #primary {
-    width: 30%;
-    float: right;
-    padding-right: 5%;
-  }
-
-  #secondary {
-    width: 60%;
-    float: left;
-    padding-left: 5%;
+#secondary {
+  width: 60%;
+  float: left;
+  padding-left: 5%;
 
   }
 
-/*FOOTER*/
+/*********************
+  FOOTER
+*********************/
 footer {
-font-size: 0.75em;
+font-size: 1em;
   text-align:center;
   clear:both;
   padding-top: 50px;
