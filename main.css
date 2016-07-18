@@ -22,3 +22,16 @@ nav ul li a:hover {
 nav ul li:last-of-type {
   border-right: none;
 }
+
+
+.pretty {
+  background-color: silver;
+  color: black;
+  text-align: left;
+  border: 1px solid lavender;
+}
+
+.case {
+  font-family: Lucida, serif;
+  color: Grey;
+}
