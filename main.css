@@ -1,24 +1,127 @@
 body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Header & Links in it*/
+
+header {
+  float: left;
+  margin: 0 0 30px 0;
+  padding: 5px 0 0 0;
+  width: 100%;
+}
+/* red header */
+header {
+  background: #ff4d4d;
+  border-color: #660000;
+}
+
+h1 {
+  font-family:'Galada', cursive;
+  margin: 15px 0;
+  font-size: 2.5em;
+  font-weight:normal;
+  line-height:0.8em;
+  text-decoration: none;
+}
+h2 {
+  font-size: 0.75em;
+  margin: -5px 0 0;
+  font-weight:normal;
+}
+#logo {
+  text-align: center;
+  margin: 0;
+}
+/* logo text */
+h1, h2 {
+  color: white;
+}
+body {
   margin: 0;
   padding: 0;
 }
-
-nav ul li {
-  display: inline-block;
-  padding: 0 .5em;
-  list-style: none;
-  border-right: 1px solid black;
-}
-
 nav ul a {
-  color: black;
+  color: white;
   text-decoration: none;
 }
 
 nav ul li a:hover {
-  color: red;
+  color: #ffe6e6;
 }
 
-nav ul li:last-of-type {
-  border-right: none;
+nav a, nav a:visited {
+  color: white;
+}
+/* selected nav link */
+nav a.selected, nav a:hover {
+  color: #800000;
+  }
+nav ul {
+  list-style: none;
+  margin: 0 10px;
+  padding: 0;
+}
+nav li {
+  display: inline-block;
+}
+nav a {
+  font-weight: 800;
+  padding: 15px 10px;
+}
+nav {
+text-align: center;
+padding: 10px, 0;
+margin:20px 0 0;
+}
+a:-webkit-any-link {
+  text-decoration: none;
+}
+
+/*Contact Page*/
+.contact-info {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.9em;
+}
+.contact-info a {
+  display: block;
+  min-height: 20px;
+  background-repeat:no-repeat;
+  background-size: 20px 20px;
+  padding: 0 0 0 30px;
+  margin: 0 0 10px;
+}
+
+.contact-info li.phone a {
+  background-image: url('../img/phone.png')
+}
+.contact-info li.mail a {
+  background-image: url('../img/mail.png')
+}
+
+  /*********************
+  TWO COLUMN LAYOUT
+  *********************/
+  #primary {
+    width: 30%;
+    float: right;
+    padding-right: 5%;
+  }
+
+  #secondary {
+    width: 60%;
+    float: left;
+    padding-left: 5%;
+
+  }
+
+/*FOOTER*/
+footer {
+font-size: 0.75em;
+  text-align:center;
+  clear:both;
+  padding-top: 50px;
+  color: #ff4d4d;
 }
