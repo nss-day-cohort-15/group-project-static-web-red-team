@@ -38,7 +38,7 @@ h2 {
   margin: -5px 0 0;
   font-weight:normal;
 }
-h3 {
+.top {
   margin-top: 0;
 }
 
@@ -151,6 +151,7 @@ div#welcome {
 
   }
 
+
   /* CARD STYLING */
 
   div.img {
@@ -196,6 +197,7 @@ div#welcome {
 }
 
 /*FOOTER*/
+
 footer {
 font-size: 1em;
   text-align:center;
@@ -217,4 +219,22 @@ font-size: 1em;
   article {
     width: 48%;
   }
+
+/*********************
+  ABOUT PAGE
+*********************/
+.pic {
+  float: left;
+  clear: left;
+  width: 200px;
+  height: 170px;
 }
+.about {
+  float: right;
+  width: 75%;
+}
+h3 {
+  text-align: center;
+  clear: both;
+  margin: 5px 0 5px 0;
+  font-size: 1.25em;
