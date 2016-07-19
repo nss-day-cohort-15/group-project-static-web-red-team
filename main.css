@@ -1,5 +1,11 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+div.wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 /*Header & Links in it*/
@@ -29,6 +35,10 @@ h2 {
   margin: -5px 0 0;
   font-weight:normal;
 }
+h3 {
+  margin-top: 0;
+}
+
 #logo {
   text-align: center;
   margin: 0;
@@ -78,6 +88,13 @@ a:-webkit-any-link {
   text-decoration: none;
 }
 
+/*Home Page Banner Image*/
+
+#splash {
+  margin: -10px 0 10px 0;
+  border-radius: 15px;
+}
+
 /*Contact Page*/
 .contact-info {
   list-style: none;
@@ -125,13 +142,13 @@ a:-webkit-any-link {
 
   article {
     display: inline-block;
-    max-width: 350px;
+    max-width: 320px;
     border: 1px solid black;
+    margin: 5px;
   }
 
   article img {
-    max-width: 320px;
-    max-height: 320px;
+    max-height: 300px;
     margin: 0 auto;
   }
 
@@ -142,8 +159,16 @@ a:-webkit-any-link {
   }
 
   p.price {
+    display: block;
     font-weight: bold;
+    margin: 0.6em;
   }
+
+  h5 {
+  font-size: 1em;
+  margin: 0.75em;
+  text-align: center;
+}
 
 /*FOOTER*/
 footer {
