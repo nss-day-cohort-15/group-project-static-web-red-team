@@ -1,0 +1,199 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+div.wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/*********************
+HEADER
+*********************/
+
+header {
+  float: left;
+  margin: 0 0 30px 0;
+  padding: 5px 0 0 0;
+  width: 100%;
+}
+/* red header */
+header {
+  background: #ff4d4d;
+  border-color: #660000;
+  border-radius: 10px;
+}
+
+h1 {
+  font-family:'Galada', cursive;
+  margin: 15px 0;
+  font-size: 2.5em;
+  font-weight:normal;
+  line-height:0.8em;
+  text-decoration: none;
+}
+h2 {
+  font-size: 0.75em;
+  margin: -5px 0 0;
+  font-weight:normal;
+}
+h3 {
+  margin-top: 0;
+}
+
+#logo {
+  text-align: center;
+  margin: 0;
+}
+/* logo text */
+h1, h2 {
+  color: white;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+nav ul a {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: #ffe6e6;
+}
+
+nav a, nav a:visited {
+  color: white;
+}
+/* selected nav link */
+nav a.selected, nav a:hover {
+  color: #800000;
+  }
+nav ul {
+  list-style: none;
+  margin: 0 10px;
+  padding: 0;
+}
+nav li {
+  display: inline-block;
+}
+nav a {
+  font-weight: 800;
+  padding: 15px 10px;
+}
+nav {
+text-align: center;
+padding: 10px, 0;
+margin:20px 0 0;
+}
+a:-webkit-any-link {
+  text-decoration: none;
+}
+
+/*********************
+  CONTACT PAGE
+*********************/
+
+/*Home Page Welcome Image*/
+
+#splash {
+  margin: -10px 0 10px 0;
+  border-radius: 10px;
+  float: left;
+  max-width: 300px;
+}
+
+div.clear {
+  clear: both;
+}
+
+div#welcome {
+  font-weight: bold;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+/*Contact Page*/
+
+.contact-info {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.9em;
+}
+.contact-info a {
+  display: block;
+  min-height: 20px;
+  background-repeat:no-repeat;
+  background-size: 20px 20px;
+  padding: 0 0 0 30px;
+  margin: 0 0 10px;
+}
+
+.contact-info li.phone a {
+  background-image: url('../img/phone.png')
+}
+.contact-info li.mail a {
+  background-image: url('../img/mail.png')
+}
+/*Two Column Layout*/
+#primary {
+  width: 30%;
+  float: right;
+  padding-right: 5%;
+}
+
+#secondary {
+  width: 60%;
+  float: left;
+  padding-left: 5%;
+
+  }
+
+  /* CARD STYLING */
+
+  div.img {
+    display: flex;
+  }
+
+  article {
+    display: inline-block;
+    max-width: 320px;
+    border: 1px solid black;
+    margin: 5px;
+    border-radius: 10px;
+  }
+
+  article img {
+    max-height: 300px;
+    margin: 0 auto;
+  }
+
+  p.description {
+    margin: 0 0 0 10px;
+    height: 160px;
+    overflow-y: scroll;
+  }
+
+  p.price {
+    display: block;
+    font-weight: bold;
+    margin: 0.6em;
+  }
+
+  h5 {
+  font-size: 1em;
+  margin: 0.75em;
+  text-align: center;
+}
+
+/*FOOTER*/
+footer {
+font-size: 1em;
+  text-align:center;
+  clear:both;
+  padding-top: 50px;
+  color: #ff4d4d;
+  font-weight: bold;
+}

@@ -2,19 +2,20 @@
 <html>
 <head>
   <title>Shop Red Team | Contact</title>
-  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" type="text/css" href="main.css">
+  <link href="https://fonts.googleapis.com/css?family=Galada" rel="stylesheet">
 </head>
 <body>
+<div class="wrapper">
   <header>
-    <a href="index.html">
+    <a href="contact.html" id=logo>
       <h1>Shop Red Team</h1>
-      <h2>Contact</h2>
     </a>
     <nav>
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <li><a href="contact.html" class="selected">Contact</a></li>
       </ul>
     </nav>
   </header>
@@ -24,15 +25,17 @@
       <ul class="contact-info">
         <li class="phone"><a href="tel:615-555-5555">615-555-5555</a></li>
         <li class="mail"><a href="mailto:contact@shopredteam.com">contact@shopredteam.com</a></li>
-        <li>Hours: M-F 9am to 5pm, Closed on weekends.</li>
+        <li>Our warehouse is open to the public Monday through Friday from 9am-5pm. Please contact us anytime to arrange tours for groups over 5 people. Otherwise come and see us anytime during our normal hours.</li>
+
       </ul>
     </section>
 
-    <section id="map">
-      <h3>Visit Shop Red Team</h3>
+    <section id="secondary">
+      <h3>Visit Shop Red Team's Warehouse</h3>
         <script src='https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyAV4oKtw7zC2f3swkZ2xQcXJW_5b8sgNuE'></script><div style='overflow:hidden;height:400px;width:500px;'><div id='gmap_canvas' style='height:400px;width:500px;'></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div> <a href='https://add-map.com/'>https://add-map.com</a> <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=6fcd9829bc38a95e754227ff7a81acbe5543bdb6'></script><script type='text/javascript'>function init_map(){var myOptions = {zoom:14,center:new google.maps.LatLng(36.132796,-86.75656800000002),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(36.132796,-86.75656800000002)});infowindow = new google.maps.InfoWindow({content:'<strong>Shop Red Team</strong><br>500 Interstate Blvd S <br>37211 Nashville<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
     </section>
-    <footer><p>&copy; Red Team 2016.</p></footer>
+    <footer><p>&copy; Red Team 2016</p></footer>
   </div>
+<div class="wrapper">
 </body>
 </html>
