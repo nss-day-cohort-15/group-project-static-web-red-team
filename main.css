@@ -20,6 +20,7 @@ header {
 header {
   background: #ff4d4d;
   border-color: #660000;
+  border-radius: 10px;
 }
 
 h1 {
@@ -92,7 +93,7 @@ a:-webkit-any-link {
 
 #splash {
   margin: -10px 0 10px 0;
-  border-radius: 15px;
+  border-radius: 10px;
 }
 
 /*Contact Page*/
@@ -145,6 +146,7 @@ a:-webkit-any-link {
     max-width: 320px;
     border: 1px solid black;
     margin: 5px;
+    border-radius: 10px;
   }
 
   article img {
