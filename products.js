@@ -50,5 +50,5 @@ var products = [
 ];
 
 for (i = 0; i < products.length; i++) {
-  productDiv.innerHTML += '<article class="card"><h5>' + products[i].name + '</h5><div class="img"><img src="' + products[i].img + '" alt="toy"></div><p class="description">' + products[i].descr + '</p><p class="price">' + products[i].price + '</p></article>'
+  productDiv.innerHTML += '<article class="card"><h5>' + products[i].name + '</h5><div class="img"><img src="' + products[i].img + '" alt="toy"></div><p class="description">' + products[i].descr + '</p><p class="price">Price: $' + products[i].price + '</p></article>'
 }
