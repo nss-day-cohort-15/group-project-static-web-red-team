@@ -38,7 +38,7 @@ h2 {
   margin: -5px 0 0;
   font-weight:normal;
 }
-h3 {
+.top {
   margin-top: 0;
 }
 
@@ -186,4 +186,24 @@ font-size: 1em;
   padding-top: 50px;
   color: #ff4d4d;
   font-weight: bold;
+}
+
+/*********************
+  ABOUT PAGE
+*********************/
+.pic {
+  float: left;
+  clear: left;
+  width: 200px;
+  height: 170px;
+}
+.about {
+  float: right;
+  width: 75%;
+}
+h3 {
+  text-align: center;
+  clear: both;
+  margin: 5px 0 5px 0;
+  font-size: 1.25em;
 }
