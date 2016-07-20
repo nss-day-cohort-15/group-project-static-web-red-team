@@ -52,3 +52,24 @@ var products = [
 for (i = 0; i < products.length; i++) {
   productDiv.innerHTML += '<article class="card"><h5>' + products[i].name + '</h5><div class="img"><img src="' + products[i].img + '" alt="toy"></div><p class="description">' + products[i].descr + '</p><p class="price">Price: $' + products[i].price + '</p></article>'
 }
+
+var links = document.querySelectorAll('nav li')
+var pages = document.querySelectorAll('.page')
+
+showPage(location.hash)
+
+for (var i = 0; i < links.length; i++) {
+  links[i].addEventListener('click', function(e) {
+    for (var j = 0; j < pages.length; j++) {
+    pages[j].classList.add("hidden")
+  }
+  document.querySelector(e.target.hash).classList.remove("hidden");
+  }
+)}
+
+function showPage(id) {
+  for (var j = 0; j < pages.length; j++) {
+    pages[j].classList.add("hidden")
+  }
+  document.querySelector(id).classList.remove("hidden");
+}
