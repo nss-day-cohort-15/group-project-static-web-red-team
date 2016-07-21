@@ -1,4 +1,5 @@
-var products = [
+(function () {
+  var products = [
   {
     name: "Bashful Beige Bunny",
     img: "img/a.jpg",
@@ -56,20 +57,25 @@ for (i = 0; i < products.length; i++) {
 var links = document.querySelectorAll('nav li')
 var pages = document.querySelectorAll('.page')
 
-showPage(location.hash)
-
 for (var i = 0; i < links.length; i++) {
-  links[i].addEventListener('click', function(e) {
-    for (var j = 0; j < pages.length; j++) {
-    pages[j].classList.add("hidden")
-  }
-  document.querySelector(e.target.hash).classList.remove("hidden");
-  }
-)}
-
-function showPage(id) {
-  for (var j = 0; j < pages.length; j++) {
-    pages[j].classList.add("hidden")
-  }
-  document.querySelector(id).classList.remove("hidden");
+  links[i].addEventListener('click', navClick);
+  pages[i].classList.add("hidden")
 }
+
+if (location.hash === "") {
+  showPage("#home")
+} else {
+  showPage(location.hash)
+}
+
+function navClick(id) {
+  for (var j = 0; j < pages.length; j++) {
+    pages[j].classList.add("hidden")};
+    showPage(id.target.hash)
+}
+
+function showPage(e) {
+  document.querySelector(e).classList.remove("hidden");
+}
+return(console.log("wassup"))
+})()
